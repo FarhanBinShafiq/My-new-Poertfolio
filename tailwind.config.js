@@ -4,7 +4,12 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        comforter: ['Cormorant Garamond', 'serif']
+
+      },
+    },
   },
   plugins: require('daisyui'),
 }
