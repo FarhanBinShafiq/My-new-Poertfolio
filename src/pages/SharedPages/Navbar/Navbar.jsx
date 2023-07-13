@@ -16,7 +16,7 @@ const Navbar = () => {
                             <a href="#">
                                 <span className="sr-only">Workflow</span>
                                 <img
-                                    className="h-96 w-auto sm:h-10"
+                                    className=" w-50 sm:h-10"
                                     src={logo}
                                     alt=""
                                 />
