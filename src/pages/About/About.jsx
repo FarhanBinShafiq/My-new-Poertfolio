@@ -12,7 +12,7 @@ const About = () => {
 
 
             <div className="card-body px-3 sm:px-0 mt-0 md:mt-12 lg:mt-20 object-fit gap-6">
-                <button className="btn w-60 mt-10 font-mono rounded-full hover:bg-pink-800">About me</button>
+            <h1 className="text-3xl text-blue-400 font-bold   uppercase">about me</h1>
                 <h1 className="card-title text-white font-cormorant text-4xl mt-20 uppercase font-sans font-bold">Every great design begin with
                     an even <span className='text-blue-400'>Full Stack Developer</span></h1>
                 <p className='text-white mt-10 font-mono font-bold'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores eum, quia fugiat error, maxime aliquid iusto magni reiciendis rem inventore hic velit facilis eveniet facere! Architecto reprehenderit et illo dolorem?</p>

@@ -6,9 +6,9 @@ import { AiOutlineDownload, AiFillGithub, AiFillInstagram, AiOutlineFacebook } f
 const Maincard = () => {
     return (
         <div>
-            <div className='card-body px-3 fixed sm:px-0 mt-0 md:mt-12 lg:mt-20 object-fit'>
+            <div className='card-body px-3  md:fixed lg:fixed sm:px-0 mt-0 md:mt-12 lg:mt-20 object-fit'>
 
-                <div className="card w-96 bg-[#343a40]  shadow-xl">
+                <div className="card w-full md:96 lg:w-96 bg-[#343a40]  shadow-xl">
 
                     <figure>
                         <img className=' p-3 pt-5 h-96 w-full ' src={image} alt="pic_one" />
