@@ -16,7 +16,7 @@ const HomeTopBanner = () => {
 
 
             <div className="card-body px-3 sm:px-0 mt-0 md:mt-12 lg:mt-20 object-fit gap-6">
-                <h1 className="card-title text-white font-cormorant text-4xl mt-20 uppercase font-sans font-bold">Hello !, I’m a <span className='text-blue-400'>Full Stack Developer</span></h1>
+                <h1 className="card-title text-white font-cormorant text-4xl mt-20 uppercase font-sans font-bold">Hello !, I’m a <span className='text-blue-400 text-6xl'>Full Stack Developer</span></h1>
 
                 <p className='text-white mt-10 font-mono font-bold'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores eum, quia fugiat error, maxime aliquid iusto magni reiciendis rem inventore hic velit facilis eveniet facere! Architecto reprehenderit et illo dolorem?</p>
                 <p className='text-white mt-10 font-mono font-bold'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores eum, quia fugiat error, maxime aliquid iusto magni reiciendis rem inventore hic velit facilis eveniet facere! Architecto reprehenderit et illo dolorem?</p>

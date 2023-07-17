@@ -1,6 +1,7 @@
+
 import React from 'react';
 
-const Education = () => {
+const Experience = () => {
     return (
         <div className="bg-[#343a40]  min-h-screen  max-h-fit shadow-xl grid sm:grid-cols-1  md:grid-cols-1  lg:grid-cols-3 pl-20 pr-20 gap-6">
 
@@ -10,9 +11,9 @@ const Education = () => {
 
             <div>
                 <section >
-                <h1 className="text-3xl text-blue-400 font-bold   uppercase">Education</h1>
+                    <h1 className="text-3xl text-blue-400 font-bold   uppercase">Experience</h1>
                     <div class="container px-5 py-16 mx-auto flex flex-wrap">
-                 
+
                         <div class="flex relative pt-10 pb-20 sm:items-center mx-auto">
                             <div class="h-full w-6 absolute inset-0 flex items-center justify-center">
                                 <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
@@ -25,12 +26,12 @@ const Education = () => {
                                     </svg>
                                 </div>
                                 <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
-                                    <h2 class="font-medium title-font text-white mb-1 text-xl">North South University</h2>
-                                    <p class="capitalize text-blue-400">Bachelor of Science in Computer Science and Engineering</p>
+                                    <h2 class="font-medium title-font text-white mb-1 text-xl">CT Health Ltd</h2>
+                                    <p class="capitalize text-blue-400">Web Application Ltd</p>
                                 </div>
                             </div>
                         </div>
- 
+
 
                         <div class="flex relative pb-10 sm:items-center   mx-auto">
                             <div class="h-full w-6 absolute inset-0 flex items-center justify-center">
@@ -44,11 +45,12 @@ const Education = () => {
                                     </svg>
                                 </div>
                                 <div class=" sm:pl-6 mt-6 sm:mt-0">
-                                    <h2 class="font-medium title-font text-white mb-1 text-2xl uppercase">cambrian school &  Collegeg</h2>
-                                    <p class="capitalized text-blue-400">Higher Secondary School Certificate</p>
+                                    <h2 class="font-medium title-font text-white mb-1 text-2xl uppercase">Wezapps Ltd.</h2>
+                                    <p class="capitalized text-blue-400">Junior Fromtend developer</p>
                                 </div>
                             </div>
                         </div>
+
                         <div class="flex relative pb-10 sm:items-center  mx-auto">
                             <div class="h-full w-6 absolute inset-0 flex items-center justify-center">
                                 <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
@@ -61,11 +63,15 @@ const Education = () => {
                                     </svg>
                                 </div>
                                 <div class=" sm:pl-6 mt-6 sm:mt-0">
-                                    <h2 class="font-medium title-font text-white mb-1 text-2xl uppercase">Siraj Uddin sarker Vidyaniketon &  Collegeg</h2>
-                                    <p class="capitalized text-blue-400">Secondary School Certificate</p>
+                                    <h2 class="font-medium title-font text-white mb-1 text-2xl uppercase">Brand Solution Ltd</h2>
+                                    <p class="capitalized text-blue-400">It Executive</p>
+                                    <p class="capitalized text-blue-400">Dec ,2020 -Dec, 2021</p>
                                 </div>
                             </div>
                         </div>
+
+
+
                     </div>
                 </section>
             </div>
@@ -77,4 +83,4 @@ const Education = () => {
     );
 };
 
-export default Education;
+export default Experience;  
